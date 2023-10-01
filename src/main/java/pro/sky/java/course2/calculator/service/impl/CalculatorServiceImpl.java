@@ -5,7 +5,7 @@ import pro.sky.java.course2.calculator.service.api.CalculatorService;
 @Service
 public class CalculatorServiceImpl implements CalculatorService {
     public String showWelcome() {
-        return "Добро пожаловать в калькулятор";
+        return "Добро пожаловать в калькулятор!";
     }
 
     public String summa(int usnum1, int usnum2) {
